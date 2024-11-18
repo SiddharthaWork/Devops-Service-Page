@@ -3,14 +3,14 @@ import React from 'react';
 const Contact = () => {
   return (
     <section className="bg-[#0D0D17] min-h-[10vh] flex items-center py-8 md:py-16">
-      <div className="container mx-auto px-4 md:px-12 flex flex-col md:flex-row justify-between items-center">
-        {/* Image Section */}
+      <div className="container mx-auto px-4 md:px-12 flex flex-col md:flex-row justify-center items-center">
         <div className="w-full md:w-1/2 mb-8 md:mb-0">
           <img src="contact.svg" alt="Contact" className="w-full h-auto" />
         </div>
+        {/* Image Section */}
 
         {/* Text Section */}
-        <div className="max-w-xl md:max-w-2xl space-y-6 text-left">
+        <div className="max-w-xl md:max-w-2xl space-y-6  text-left">
           <h2 className="text-3xl sm:text-4xl md:text-5xl text-white tracking-tight">
             Empowering Your
           </h2>
@@ -40,6 +40,5 @@ const Contact = () => {
     </section>
   );
 };
-
 
 export default Contact;

@@ -3,6 +3,7 @@ import React from 'react'
 import { IoIosArrowDown } from 'react-icons/io'
 import { FiMenu, FiX } from 'react-icons/fi';
 import { useState } from 'react';
+import Image from 'next/image';
 const Navbar = () => {
     const [open, setOpen] = useState(false);
 
@@ -14,7 +15,7 @@ const Navbar = () => {
         <div className={`${open ? 'fixed top-0 left-0 z-50' : 'relative'
             } flex justify-between bg-[#1E1E1E] w-full px-4 md:px-10 py-4 items-center`}>
             <div className='flex'>
-                <img src="logo.svg" alt="" />
+                <Image width={100} height={100} src="logo.svg" alt="" />
             </div>
 
             <div className='hidden md:flex gap-12 items-center text-white'>

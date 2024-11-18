@@ -31,7 +31,7 @@ const Benefits = () => {
               <div className="text-center mt-4">
                 <h3 className="text-xl font-semibold mb-2">Scalable Solutions</h3>
                 <p className="text-gray-600">
-                  Our DevOps solutions grow with your business needs. Whether you're handling a
+                  Our DevOps solutions grow with your business needs. Whether your handling a
                   surge in traffic or launching a new feature, we provide seamless scalability
                   without requiring new hardware or complicated adjustments.
                 </p>
